@@ -8,12 +8,12 @@ This project is a simplified distributed storage system inspired by Google File 
 
 ## Team Contribution Plan
 
-1. Nesibeli - Master Server
-2. [Name] - Chunkserver
-3. [Name] - Replication
-4. [Name] - Client CLI
-5. [Name] - Docker + Tests
-6. [Name] - AI Agent + Presentation + Docs
+1. Ayau - Master Server
+2. Aizada - Chunk Storage
+3. Nesibeli -  AI Monitoring
+4. Zhansaya - Client API
+5. Karakat - DevOps 
+6. Lyudmila - QA & Analytics
 
 ## Main Features
 
