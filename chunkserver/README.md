@@ -1,6 +1,6 @@
 # Chunkserver
 
-Owner: [Name]
+Owner: [Aizada]
 
 Responsibilities:
 - store chunks
