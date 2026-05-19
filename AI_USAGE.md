@@ -1,23 +1,34 @@
 # AI Usage Report
 
-Owner: [Name]
+Using AI tools was a core part of our development process.
 
-## AI tools used
+## Tools used
 
-- ChatGPT
-- GitHub Copilot / Cursor / Claude Code
+- Claude (claude.ai) — main assistant used throughout the project
 
 ## Example prompts
 
-1. Create a Mini-GFS distributed storage architecture.
-2. Generate Python FastAPI endpoints for master and chunkserver.
-3. Help debug Docker Compose networking.
-4. Explain replication and failure recovery.
+### Prompt 1
+> "Create a FastAPI master server for a distributed file system that stores file metadata"
+
+### Prompt 2
+> "My chunkserver starts but immediately stops with no error, how to fix?"
+
+### Prompt 3
+> "Write tests for a distributed file system that check upload, read, and delete"
+
+### Prompt 4
+> "Create an AI monitoring agent that checks if master and chunkservers are online"
 
 ## How AI helped
 
-- Project planning
-- Code generation
-- Debugging
-- Documentation
-- Presentation preparation
+- Generated master server, chunkserver, and client code
+- Debugged encoding issues (UTF-8 fix)
+- Helped design replication logic
+- Wrote test cases
+- Created AI cluster monitoring agent
+- Helped write README and documentation
+
+## Important note
+
+Every team member reviewed and understood the code before the defense.
