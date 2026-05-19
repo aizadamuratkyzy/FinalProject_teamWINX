@@ -1,6 +1,6 @@
 # Tests
 
-Owner: [Name]
+Owner: [Lyudmila]
 
 System tests for validating the Mini-GFS distributed file system.
 
