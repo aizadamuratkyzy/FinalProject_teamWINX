@@ -1,33 +1,28 @@
-# Docker Compose cluster
-# Owner: [Name]
-
-version: '3.8'
-
 services:
   master:
     build: .
     container_name: mini-gfs-master
-    command: ["echo", "TODO: run master server"]
+    command: uvicorn master.main:app --host 0.0.0.0 --port 8080
     ports:
-      - "8000:8000"
+      - "8080:8080"
 
   chunkserver1:
     build: .
     container_name: mini-gfs-chunkserver1
-    command: ["echo", "TODO: run chunkserver1"]
+    command: uvicorn chunkserver.main:app --host 0.0.0.0 --port 8001
     ports:
       - "8001:8001"
 
   chunkserver2:
     build: .
     container_name: mini-gfs-chunkserver2
-    command: ["echo", "TODO: run chunkserver2"]
+    command: uvicorn chunkserver.main:app --host 0.0.0.0 --port 8001
     ports:
       - "8002:8001"
 
   chunkserver3:
     build: .
     container_name: mini-gfs-chunkserver3
-    command: ["echo", "TODO: run chunkserver3"]
+    command: uvicorn chunkserver.main:app --host 0.0.0.0 --port 8001
     ports:
       - "8003:8001"
