@@ -3,9 +3,9 @@ Configuration file for Master Server.
 """
 
 CHUNK_SERVERS = [
-    "http://chunkserver1:8001",
-    "http://chunkserver2:8001",
-    "http://chunkserver3:8001",
+    "http://localhost:8001",
+    "http://localhost:8002",
+    "http://localhost:8003",
 ]
 
 REPLICATION_FACTOR = 3
