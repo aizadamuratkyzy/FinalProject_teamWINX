@@ -1,6 +1,14 @@
 import argparse
 import os
 
+from fastapi import FastAPI
+
+app = FastAPI()
+
+
+@app.get("/")
+def root():
+    return {"message": "Mini-GFS Master Server Running"}
 
 def run_master():
     os.system(
